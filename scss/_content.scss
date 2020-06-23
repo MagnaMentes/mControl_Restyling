@@ -111,5 +111,23 @@
                 }
             }   
         }
+
+        .arrow {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            width: 101px;
+            height: 149px;
+            margin: 10px 10px 0 0;
+            background: url(../img/ArrowDown.png);
+
+            .percent {
+                font-size: 14px;
+                color: #ecf0f1;
+                font-weight: 700;
+                margin-right: 5px;
+            }
+        }
     }
 }

@@ -231,6 +231,24 @@ body .main .content .card .progress-bar .down-circle .up-circle .percent {
   top: 29px;
 }
 
+body .main .content .card .arrow {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 101px;
+  height: 149px;
+  margin: 10px 10px 0 0;
+  background: url(../img/ArrowDown.png);
+}
+
+body .main .content .card .arrow .percent {
+  font-size: 14px;
+  color: #ecf0f1;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
 body .main .footer {
   margin: 25px 0 25px 10px;
 }
