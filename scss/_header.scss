@@ -1,0 +1,29 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+
+    .logo {
+        background: url(../img/Logo.png)no-repeat;
+        width: 365px;
+        height: 46px;
+        margin: 0 0 0 10px;
+    }
+
+    .menu {
+        display: flex;
+        margin: 0 10px 0 0;
+
+        li {
+            margin-right: 20px;
+            color: #3498db;
+            font-weight: 400;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
