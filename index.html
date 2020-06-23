@@ -12,7 +12,7 @@
             <div class="logo"></div>
             <nav class="nav">
                 <ul class="menu">
-                    <li>Главная</li>
+                    <li class="active">Главная</li>
                     <li>Эффективность магазинов</li>
                     <li>Мониторинг конкурентов</li>
                     <li>Моя эффективность</li>
@@ -20,6 +20,59 @@
                 </ul>
             </nav>
         </header>
+
+        <content class="content">
+            <div class="card" id="monthPlan">
+                <div class="card-text">
+                    <div class="card-title">
+                        Продажи - месяц
+                    </div>
+                    <div class="card-plan">
+                        План: <span class="digit">10 500 000</span>
+                    </div>
+                    <div class="card-fact">
+                        Факт: <span class="digit">2 597 794</span>
+                    </div>
+                    <div class="card-tendention-red">
+                        Тенденция: <span class="digit-red">-3%</span>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <div class="down-circle">
+                        <img class="progress-month" src="img/Rectangle.png" alt="">
+                        <div class="up-circle">
+                            <div class="percent">24%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" id="dayPlan">
+                <div class="card-text">
+                    <div class="card-title">
+                        Продажи - день
+                    </div>
+                    <div class="card-plan">
+                        План: <span class="digit">252 783</span>
+                    </div>
+                    <div class="card-fact">
+                        Факт: <span class="digit">201 327</span>
+                    </div>
+                    <div class="card-tendention-green">
+                        Тенденция: <span class="digit-green">14%</span>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <div class="down-circle">
+                        <img class="progress-day" src="img/Rectangle.png" alt="">
+                        <div class="up-circle">
+                            <div class="percent">77%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </content>
     </main>
 </body>
 </html>

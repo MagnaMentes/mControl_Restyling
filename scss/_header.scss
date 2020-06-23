@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 25px 0;
+    margin: 25px 0 45px 0;
 
     .logo {
         background: url(../img/Logo.png)no-repeat;
@@ -19,11 +19,15 @@
         li {
             margin-right: 20px;
             color: #3498db;
-            font-weight: 400;
+            font-weight: inherit;
 
             &:last-child {
                 margin-right: 0;
             }
+        }
+
+        .active {
+            color: #8e44ad;
         }
     }
 }

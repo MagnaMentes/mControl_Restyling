@@ -6,14 +6,132 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    font-weight: 400;
 
     background-color: #ecf0f1;
 
     .main {
         width: 1366px;
         display: flex;
+        flex-direction: column;
         margin: 0 auto;
 
         @import "header";
+
+        .content {
+            margin: 0 60px 45px 60px;
+            display: flex;
+
+            .card {
+                background-color: #ecf0f1;
+                display: flex;
+                justify-content: space-between;
+                width: 300px;
+                height: 182px;
+                margin-left: 10px;
+                font-size: 14px;
+                border-radius: 10px;
+                box-shadow: -2px -2px 5px #fff, 4px 4px 10px #bdc3c7;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+
+                .card-text {
+                    margin: 25px 0 0 10px;
+
+                    .card-title {
+                        font-weight: 500;
+                        color: #8e44ad;
+                        margin-bottom: 14px;
+                    }
+
+                    .card-plan, .card-fact {
+                        color: #3498db;
+                        margin-bottom: 14px;
+                    }
+
+                    .card-tendention-red {
+                        color: #e74c3c;
+                    }
+
+                    .card-tendention-green {
+                        color: #16a085;
+                    }
+
+                    .digit {
+                        font-weight: 500;
+                    }
+
+                    .digit-red {
+                        font-weight: 500;
+                    }
+
+                    .digit-green {
+                        font-weight: 500;
+                    }
+                }
+
+                .progress-bar {
+                    // z-index: 10;
+                    position: relative;
+                    .down-circle {
+                        position: absolute;
+                        right: 10px;
+                        top: 25px;
+                        width: 130px;
+                        height: 130px;
+                        border-radius: 50%;
+                        -webkit-border-radius: 50%;
+                        -moz-border-radius: 50%;
+                        -ms-border-radius: 50%;
+                        -o-border-radius: 50%;
+                        
+                        box-shadow: -2px -2px 5px #fff, 4px 4px 10px #bdc3c7;
+                        overflow: hidden;
+                        // z-index: 11;
+
+                        .progress-month {
+                            position: absolute;
+                            top: 99px;
+                            opacity: 24%;
+                            // z-index: 12;
+                        }
+
+                        .progress-day {
+                            position: absolute;
+                            top: 30px;
+                            opacity: 77%;
+                        }
+
+                        .up-circle {
+                            position: absolute;
+                            width: 80px;
+                            height: 80px;
+                            left: 25px;
+                            top: 25px;
+                            background-color: #ecf0f1;
+                            border-radius: 50%;
+                            -webkit-border-radius: 50%;
+                            -moz-border-radius: 50%;
+                            -ms-border-radius: 50%;
+                            -o-border-radius: 50%;
+                            
+                            box-shadow: -2px -2px 5px #fff, 4px 4px 10px #bdc3c7;
+                            z-index: 13;
+
+                            .percent {
+                                position: absolute;
+                                font-size: 22px;
+                                font-weight: 700;
+                                color: #3498db;
+                                left: 17px;
+                                top: 29px;
+                            }
+                        }
+                    }   
+                }
+            }
+        }
     }
 }
