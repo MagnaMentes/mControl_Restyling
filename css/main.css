@@ -220,7 +220,6 @@ body .main .content .card .progress-bar .down-circle .up-circle {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   box-shadow: -2px -2px 5px #fff, 4px 4px 10px #bdc3c7;
-  z-index: 13;
 }
 
 body .main .content .card .progress-bar .down-circle .up-circle .percent {
@@ -230,4 +229,13 @@ body .main .content .card .progress-bar .down-circle .up-circle .percent {
   color: #3498db;
   left: 17px;
   top: 29px;
+}
+
+body .main .footer {
+  margin: 25px 0 25px 10px;
+}
+
+body .main .footer h2 {
+  color: #95a5a6;
+  font-size: 16px;
 }
