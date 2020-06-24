@@ -11,7 +11,7 @@ body {
     background-color: #ecf0f1;
 
     .main {
-        width: 1366px;
+        max-width: 1366px;
         display: flex;
         flex-direction: column;
         margin: 0 auto;

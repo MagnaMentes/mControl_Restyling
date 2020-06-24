@@ -1,6 +1,8 @@
 .content {
+    width: 100%;
     margin: 0 60px 45px 60px;
     display: flex;
+    flex-wrap: wrap;
 
     .card {
         background-color: #ecf0f1;
@@ -8,7 +10,7 @@
         justify-content: space-between;
         width: 300px;
         height: 182px;
-        margin-left: 10px;
+        margin: 0 0 10px 10px;
         font-size: 14px;
         border-radius: 10px;
         box-shadow: -2px -2px 5px #fff, 4px 4px 10px #bdc3c7;
@@ -45,10 +47,12 @@
 
             .digit-red {
                 font-weight: 500;
+                color: #e74c3c;
             }
 
             .digit-green {
                 font-weight: 500;
+                color: #16a085;
             }
         }
 
@@ -82,6 +86,54 @@
                     position: absolute;
                     top: 30px;
                     opacity: 77%;
+                }
+
+                .progress-budget {
+                    position: absolute;
+                    top: 64px;
+                    opacity: 51%;
+                }
+
+                .progress-rd1 {
+                    position: absolute;
+                    top: 70px;
+                    opacity: 46%;
+                }
+
+                .progress-rd2 {
+                    position: absolute;
+                    top: 86px;
+                    opacity: 34%;
+                }
+
+                .progress-arenda {
+                    position: absolute;
+                    top: 16px;
+                    opacity: 88%;
+                }
+
+                .progress-employes {
+                    position: absolute;
+                    top: 23px;
+                    opacity: 83%;
+                }
+
+                .progress-credit {
+                    position: absolute;
+                    top: 115px;
+                    opacity: 12%;
+                }
+
+                .progress-tovarooborot {
+                    position: absolute;
+                    top: 97px;
+                    opacity: 26%;
+                }
+
+                .progress-retro {
+                    position: absolute;
+                    top: 70px;
+                    opacity: 46%;
                 }
 
                 .up-circle {

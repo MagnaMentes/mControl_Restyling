@@ -80,7 +80,7 @@ body {
 }
 
 body .main {
-  width: 1366px;
+  max-width: 1366px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -121,8 +121,10 @@ body .main .header .menu .active {
 }
 
 body .main .content {
+  width: 100%;
   margin: 0 60px 45px 60px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 body .main .content .card {
@@ -131,7 +133,7 @@ body .main .content .card {
   justify-content: space-between;
   width: 300px;
   height: 182px;
-  margin-left: 10px;
+  margin: 0 0 10px 10px;
   font-size: 14px;
   border-radius: 10px;
   box-shadow: -2px -2px 5px #fff, 4px 4px 10px #bdc3c7;
@@ -170,10 +172,12 @@ body .main .content .card .card-text .digit {
 
 body .main .content .card .card-text .digit-red {
   font-weight: 500;
+  color: #e74c3c;
 }
 
 body .main .content .card .card-text .digit-green {
   font-weight: 500;
+  color: #16a085;
 }
 
 body .main .content .card .progress-bar {
@@ -205,6 +209,54 @@ body .main .content .card .progress-bar .down-circle .progress-day {
   position: absolute;
   top: 30px;
   opacity: 77%;
+}
+
+body .main .content .card .progress-bar .down-circle .progress-budget {
+  position: absolute;
+  top: 64px;
+  opacity: 51%;
+}
+
+body .main .content .card .progress-bar .down-circle .progress-rd1 {
+  position: absolute;
+  top: 70px;
+  opacity: 46%;
+}
+
+body .main .content .card .progress-bar .down-circle .progress-rd2 {
+  position: absolute;
+  top: 86px;
+  opacity: 34%;
+}
+
+body .main .content .card .progress-bar .down-circle .progress-arenda {
+  position: absolute;
+  top: 16px;
+  opacity: 88%;
+}
+
+body .main .content .card .progress-bar .down-circle .progress-employes {
+  position: absolute;
+  top: 23px;
+  opacity: 83%;
+}
+
+body .main .content .card .progress-bar .down-circle .progress-credit {
+  position: absolute;
+  top: 115px;
+  opacity: 12%;
+}
+
+body .main .content .card .progress-bar .down-circle .progress-tovarooborot {
+  position: absolute;
+  top: 97px;
+  opacity: 26%;
+}
+
+body .main .content .card .progress-bar .down-circle .progress-retro {
+  position: absolute;
+  top: 70px;
+  opacity: 46%;
 }
 
 body .main .content .card .progress-bar .down-circle .up-circle {
@@ -250,10 +302,12 @@ body .main .content .card .arrow .percent {
 }
 
 body .main .footer {
-  margin: 25px 0 25px 10px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 body .main .footer h2 {
   color: #95a5a6;
   font-size: 16px;
+  text-align: center;
 }
